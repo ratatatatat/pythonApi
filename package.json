@@ -1,0 +1,24 @@
+{
+  "name": "pythonnodeapi",
+  "version": "1.0.0",
+  "description": "A Node API Wrapper around python functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=dev nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratatatatat/pythonApi.git"
+  },
+  "author": "Rajiv Puri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratatatatat/pythonApi/issues"
+  },
+  "homepage": "https://github.com/ratatatatat/pythonApi#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "python-shell": "^0.4.0"
+  }
+}
